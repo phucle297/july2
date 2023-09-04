@@ -1,0 +1,148 @@
+.wrapper {
+  position: relative;
+  background: $gray;
+
+  .container {
+    padding: 2.5rem 1rem;
+
+    @media (min-width: 1024px) {
+      padding: 4.5rem 1rem;
+    }
+
+    @media (min-width: 1280px) {
+      padding: 6.5rem 5rem;
+    }
+  }
+
+  .img {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    img {
+      object-fit: cover;
+      border-radius: 8px;
+
+      @media (min-width: 1280px) {
+        height: 80%;
+        width: 80%;
+      }
+
+      @media (min-width: 1920px) {
+        margin-right: 10px;
+      }
+
+      @media (min-width: 2560px) {
+        margin-right: 20px;
+      }
+    }
+  }
+
+  .item {
+    color: white;
+    transition: all 0.3s ease;
+    background-color: $primary;
+    transform: translate(0, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    margin-top: 10px;
+    padding: 2rem 1.5rem;
+    height: 180px;
+
+    @media (min-width: 1440px) {
+      padding: 3rem 2.5rem;
+      height: 230px;
+    }
+
+    @media (min-width: 1920px) {
+      height: 280px;
+    }
+
+    @media (min-width: 2560px) {
+      padding: 2.5rem 5rem;
+      height: 350px;
+    }
+
+    &:hover {
+      transform: translate(-5px, -5px);
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    }
+    h3 {
+      color: white;
+      font-size: 1.5em;
+      margin-bottom: 0.5em;
+      font-weight: 600;
+      @media (min-width: 1440px) {
+        font-size: 1.75em;
+      }
+    }
+  }
+  .item1 {
+    background: #44a750;
+
+    @media (min-width: 1920px) {
+      margin-right: 50px;
+    }
+  }
+  .item2 {
+    color: black;
+    background: #ddd;
+    h3 {
+      color: $primary;
+    }
+
+    @media (min-width: 1024px) {
+      margin-top: 20px;
+      margin-left: 50px;
+      margin-bottom: -120px;
+    }
+
+    @media (min-width: 1280px) {
+      margin-top: 20px;
+      margin-left: 50px;
+      margin-bottom: -50px;
+    }
+
+    @media (min-width: 1920px) {
+      margin-top: 20px;
+      margin-left: 50px;
+      margin-right: 50px;
+      margin-bottom: -150px;
+    }
+
+    @media (min-width: 2560px) {
+      margin-top: 30px;
+      margin-left: 80px;
+      margin-right: 50px;
+      margin-bottom: -240px;
+    }
+  }
+
+  .item3 {
+    @media (min-width: 1024px) {
+      margin-top: -100px;
+      margin-left: 50px;
+      margin-right: -50px;
+    }
+
+    @media (min-width: 1280px) {
+      margin-top: -120px;
+      margin-left: 150px;
+      margin-right: -50px;
+    }
+
+    @media (min-width: 1920px) {
+      margin-top: -150px;
+      margin-left: 200px;
+      margin-right: -50px;
+    }
+
+    @media (min-width: 2560px) {
+      margin-top: -200px;
+      margin-left: 300px;
+      margin-right: -70px;
+    }
+  }
+}

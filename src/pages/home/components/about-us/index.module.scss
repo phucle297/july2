@@ -26,7 +26,12 @@
     }
 
     .img3 {
-      height: 280px;
+      @media (min-width: 1280px) {
+        height: 280px;
+      }
+      @media (min-width: 1600px) {
+        height: initial;
+      }
     }
   }
 }

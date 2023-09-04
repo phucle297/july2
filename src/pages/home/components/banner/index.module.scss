@@ -7,6 +7,14 @@
   position: relative;
   overflow: hidden;
 
+  @media (min-width: 1920px) {
+    min-height: calc(75vh - 100px);
+  }
+
+  @media (min-width: 2560px) {
+    min-height: calc(75vh - 120px);
+  }
+
   .container {
     padding: 1rem;
     @media (min-width: 1280px) {
@@ -19,8 +27,10 @@
 
     .left {
       .leftContent {
-        max-width: 70%;
-        margin-left: auto;
+        @media (min-width: 1280px) {
+          max-width: 70%;
+          margin-left: auto;
+        }
       }
 
       h1 {
@@ -45,13 +55,7 @@
         left: 50%;
         transform: translate(-50%, -50%);
         z-index: 1;
-        height: 350px;
-        width: 350px;
-
-        @media (min-width: 768px) {
-          height: 550px;
-          width: 550px;
-        }
+        width: 75%;
       }
 
       .img2 {
@@ -60,14 +64,9 @@
         left: 50%;
         transform: translate(-50%, -50%);
         z-index: 2;
-        width: 250px;
-        height: 250px;
+        width: 40%;
         border-radius: 50%;
-
-        @media (min-width: 768px) {
-          width: 300px;
-          height: 300px;
-        }
+        aspect-ratio: 1/1;
       }
     }
   }
