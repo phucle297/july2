@@ -3,7 +3,12 @@ body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
+  line-height: 1.35;
   font-size: 16px;
+
+  @media (min-width: 1440px) {
+    font-size: 18px;
+  }
 
   @media (min-width: 1920px) {
     font-size: 20px;
@@ -114,4 +119,25 @@ img {
   right: 0;
   border-radius: 0 !important;
   box-shadow: 0px 10px 20px -3px rgba(0, 0, 0, 0.2) !important;
+}
+
+.primaryBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.5rem;
+  background: #17803d;
+  padding-top: 0.625em;
+  padding-bottom: 0.625em;
+  padding-left: 1.5em;
+  padding-right: 0.75em;
+  font-weight: 600;
+  color: white !important;
+  font-size: 1em;
+  width: fit-content;
+  transition: all 0.3s ease;
+
+  &:hover {
+    background: #166434;
+  }
 }

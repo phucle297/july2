@@ -1,0 +1,86 @@
+.wrapper {
+  position: relative;
+  min-height: calc(75vh - 80px);
+  background-size: cover;
+  background-blend-mode: multiply;
+  color: white !important;
+  position: relative;
+  overflow: hidden;
+
+  .container {
+    padding: 0 1rem;
+    @media (min-width: 1280px) {
+      padding: 0 5rem;
+    }
+
+    .banner {
+      height: 100%;
+    }
+
+    .left {
+      .leftContent {
+        max-width: 70%;
+        margin-left: auto;
+      }
+
+      h1 {
+        font-size: 2em;
+        font-weight: 700;
+        margin: 1rem 0;
+        color: white;
+      }
+      p {
+        margin: 1rem 0;
+        text-align: justify;
+      }
+    }
+    .right {
+      position: relative;
+      width: 100%;
+      min-height: calc(75vh - 80px);
+
+      .img1 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 1;
+        height: 350px;
+        width: 350px;
+
+        @media (min-width: 768px) {
+          height: 550px;
+          width: 550px;
+        }
+      }
+
+      .img2 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 2;
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+
+        @media (min-width: 768px) {
+          width: 300px;
+          height: 300px;
+        }
+      }
+    }
+  }
+}
+
+.svg {
+  width: 100%;
+  overflow: hidden;
+  border: none;
+  outline: none !important;
+  margin-bottom: -10px;
+
+  path {
+    fill: white;
+  }
+}

@@ -15,10 +15,12 @@ import Tap3 from "./tap3.jpeg";
 import Tap4 from "./tap4.jpeg";
 import Train1 from "./train1.png";
 import Train3 from "./train3.jpeg";
+import BgBanner from "./bg-banner.jpeg";
 
 export {
   July,
   BgCarousel,
+  BgBanner,
   Cer1,
   Cer2,
   Cer3,
