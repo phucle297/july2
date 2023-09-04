@@ -73,16 +73,16 @@ const Header = () => {
             <nav className={styles.mainNav}>
               <ul>
                 <li>
-                  <NavLink to="/">{t("HOME_PAGE")}</NavLink>
+                  <a href="/">{t("HOME_PAGE")}</a>
                 </li>
                 <li>
-                  <NavLink to="#about-us">{t("ABOUT_US")}</NavLink>
+                  <a href="#about-us">{t("ABOUT_US")}</a>
                 </li>
                 <li>
-                  <NavLink to="#services">{t("SERVICES")}</NavLink>
+                  <a href="#services">{t("SERVICES")}</a>
                 </li>
                 <li>
-                  <NavLink to="#contact-us">{t("CONTACT_US")}</NavLink>
+                  <a href="#contact-us">{t("CONTACT_US")}</a>
                 </li>
               </ul>
             </nav>

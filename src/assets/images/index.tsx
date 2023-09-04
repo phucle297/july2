@@ -15,6 +15,7 @@ import Tap3 from "./tap3.jpeg";
 import Tap4 from "./tap4.jpeg";
 import Train1 from "./train1.png";
 import Train3 from "./train3.jpeg";
+import Train4 from "./train4.jpeg";
 import BgBanner from "./bg-banner.jpeg";
 
 export {
@@ -36,4 +37,5 @@ export {
   Tap4,
   Train1,
   Train3,
+  Train4,
 };
