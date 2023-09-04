@@ -1,11 +1,10 @@
-import { Button } from "@mui/material";
+import Header from "@/elements/header";
 import { FC } from "react";
 
 const HomePage: FC = () => {
   return (
     <section>
-      <h1>Home Page</h1>
-      <Button>Mui Btn</Button>
+      <Header />
     </section>
   );
 };
