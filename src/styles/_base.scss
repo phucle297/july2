@@ -154,3 +154,25 @@ img {
     background: #166434;
   }
 }
+
+div.slick-active {
+  z-index: 2;
+}
+
+.slick-dots li button::before,
+.slick-dots li button:hover::before,
+.slick-dots li button:focus::before {
+  font-size: 15px !important;
+  color: rgba(33, 51, 100, 0.4) !important;
+  opacity: 1 !important;
+  transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+}
+.slick-dots li.slick-active button::before,
+.slick-dots li:hover button::before {
+  color: #213364 !important;
+  opacity: 1 !important;
+  font-size: 18px !important;
+}
