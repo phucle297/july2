@@ -36,5 +36,7 @@
 
   "STUDENTS": "Students",
   "YOE": "Years of experience",
-  "TEACHING_HOURS": "Teaching hours"
+  "TEACHING_HOURS": "Teaching hours",
+
+  "FEEDBACK": "Feedback"
 }

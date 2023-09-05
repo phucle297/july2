@@ -6,6 +6,7 @@ import WhyChooseUs from "./components/why-choose-us";
 import Certificates from "./components/certificates";
 import Footer from "./components/footer";
 import Stats from "./components/stats";
+import Feedback from "./components/feedback";
 
 const HomePage: FC = () => {
   return (
@@ -16,6 +17,7 @@ const HomePage: FC = () => {
       <WhyChooseUs />
       <Certificates />
       <Stats />
+      <Feedback />
       <Footer />
     </section>
   );
