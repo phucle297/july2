@@ -8,26 +8,26 @@ const Feedback: FC = () => {
     {
       img: "https://picsum.photos/50?random=1",
       content:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos repudiandae, molestiae minus illo sunt molestias consequuntur eligendi esse incidunt odio!",
-      name: "Nguyen Van A",
+        "Hành trình vạn dặm bắt đầu từ một bước chân. Em mãi luôn biết ơn cô Trần Thị Đức Hạnh và July Yoga",
+      name: "Huong Cao",
     },
     {
       img: "https://picsum.photos/50?random=2",
       content:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos repudiandae, molestiae minus illo sunt molestias consequuntur eligendi esse incidunt odio consequuntur eligendi esse incidunt",
-      name: "Le Van B",
+        "Đam mê yoga mà được học lớp huấn luyện viên yoga chất lượng thì thật sự quá may mắn và hạnh phúc...",
+      name: "Nguyễn Quỳnh Anh",
     },
     {
       img: "https://picsum.photos/50?random=3",
       content:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos repudiandae, molestiae minus illo sunt molestias consequuntur eligendi esse incidunt odio!",
-      name: "Nguyen Van C",
+        "Nhờ cô liên tiếp nhắc nhở 'vươn ngực' trong vài tháng qua nên em thấy mình ý thức thẳng lưng hơn khi đi đứng (càng lớn tuổi thì lưng càng khòm), hy vọng học với cô lâu dài thì vóc dáng được cải thiện",
+      name: "Giấu tên",
     },
     {
       img: "https://picsum.photos/50?random=4",
       content:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos repudiandae, molestiae minus illo sunt molestias",
-      name: "Le Van D",
+        "Sau khi tham gia khóa học, mọi người đều nói sức khỏe và thần thái của cô rất tốt",
+      name: "Giấu tên",
     },
   ];
   const settings = {
