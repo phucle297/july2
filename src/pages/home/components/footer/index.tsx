@@ -15,13 +15,13 @@ const Footer: FC = () => {
     <footer className={styles.wrapper} id="contact">
       <div className={styles.container}>
         <Grid container spacing={3}>
-          <Grid item xs={12} md={6} lg={3}>
+          <Grid item xs={12} md={3}>
             <div>
               <img src={JulyWhite} alt="" />
               <p className={styles.content}>{t("FOOTER_CONTENT")}</p>
             </div>
           </Grid>
-          <Grid item xs={12} md={6} lg={3}>
+          <Grid item xs={12} md={3}>
             <div>
               <h3 className="h-12 text-3xl font-bold text-center text-white lg:h-14 lg:mt-4">
                 {t("PRODUCTS")}
@@ -37,7 +37,7 @@ const Footer: FC = () => {
             </div>
           </Grid>
 
-          <Grid item xs={12} md={6} lg={3}>
+          <Grid item xs={12} md={3}>
             <div>
               <h3 className="h-12 text-3xl font-bold text-center text-white lg:h-14 lg:mt-4">
                 {t("CONTACT")}
@@ -72,7 +72,7 @@ const Footer: FC = () => {
             </div>
           </Grid>
 
-          <Grid item xs={12} md={6} lg={3} className={styles.map}>
+          <Grid item xs={12} md={3} className={styles.map}>
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3834.4464363169122!2d108.21556285016807!3d16.042306844366102!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314219c1da813283%3A0x99c1b65dfacc9083!2zNTMgxJAuIEzDqiBUaGFuaCBOZ2jhu4ssIEhvw6AgQ8aw4budbmcgQuG6r2MsIEjhuqNpIENow6J1LCDEkMOgIE7hurVuZyA1NTAwMDAsIFZpZXRuYW0!5e0!3m2!1sen!2s!4v1642917168170!5m2!1sen!2s"
               width={"100%"}
