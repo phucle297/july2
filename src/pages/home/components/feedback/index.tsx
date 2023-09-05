@@ -44,7 +44,9 @@ const Feedback: FC = () => {
     return arrFeedback.map((feedback, index) => {
       return (
         <div className={styles.item} key={index}>
-          <div className={styles.content}>{feedback.content}</div>
+          <div className={styles.content}>
+            <p>{feedback.content}</p>
+          </div>
           <div className={styles.info}>
             <img src={feedback.img} alt="img" />
             <div>
