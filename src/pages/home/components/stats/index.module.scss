@@ -1,0 +1,37 @@
+.wrapper {
+    position: relative;
+    background: #f7f7f7;
+    .item {
+        text-align: center;
+        .num {
+            font-weight: 600;
+            span {
+                font-weight: 600;
+            }
+        }
+    }
+    svg {
+        display: block;
+        margin: 0 auto;
+        path {
+            fill: $primary;
+        }
+    }
+    .container {
+        padding: 2rem 1rem;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        @media (min-width: 1280px) {
+            padding: 2rem 5rem;
+        }
+
+        @media (min-width: 1920px) {
+            padding: 5rem 10rem;
+        }
+
+        @media (min-width: 2560px) {
+            padding: 5rem 15rem;
+        }
+    }
+}

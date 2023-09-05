@@ -5,6 +5,7 @@ import AboutUs from "./components/about-us";
 import WhyChooseUs from "./components/why-choose-us";
 import Certificates from "./components/certificates";
 import Footer from "./components/footer";
+import Stats from "./components/stats";
 
 const HomePage: FC = () => {
   return (
@@ -14,6 +15,7 @@ const HomePage: FC = () => {
       <AboutUs />
       <WhyChooseUs />
       <Certificates />
+      <Stats />
       <Footer />
     </section>
   );
