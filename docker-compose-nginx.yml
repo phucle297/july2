@@ -1,0 +1,10 @@
+nginx:
+        container_name: example_nginx_prod
+        image: nginx:latest
+        ports:
+            - "443:443"
+            - "80:80"
+        volumes:
+            - ~/dist:/usr/share/nginx/html
+            - ~/julygroups_com.crt:/etc/nginx/ssl/julygroups_com.crt
+            - ~/privateKey.key:/etc/nginx/ssl/privateKey.key
