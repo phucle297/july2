@@ -9,6 +9,14 @@
     padding: 2rem 5rem;
   }
 
+  @media (min-width: 1920px) {
+    padding: 5rem 10rem;
+  }
+
+   @media (min-width: 2560px) {
+    padding: 5rem 15rem;
+  }
+
   li {
     margin: 0.5em 0;
 

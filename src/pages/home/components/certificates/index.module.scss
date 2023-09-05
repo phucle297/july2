@@ -9,6 +9,14 @@
     padding-bottom: 7rem;
   }
 
+  @media (min-width: 1920px) {
+    padding: 5rem 10rem;
+  }
+
+  @media (min-width: 2560px) {
+    padding: 5rem 15rem;
+  }
+
   .item {
     padding: 10px;
     img {
@@ -29,5 +37,9 @@
     .textItem {
       margin-bottom: 5px;
     }
+  }
+
+  h1 {
+    text-align: center;
   }
 }

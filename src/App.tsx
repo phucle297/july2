@@ -9,6 +9,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" Component={HomePage}></Route>
+          <Route path="*" Component={HomePage} />
         </Routes>
       </BrowserRouter>
     </>
