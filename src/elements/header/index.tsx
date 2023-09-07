@@ -82,7 +82,7 @@ const Header = () => {
                   <a href="#services">{t("SERVICES")}</a>
                 </li>
                 <li>
-                  <a href="#contact-us">{t("CONTACT_US")}</a>
+                  <a href="#contact">{t("CONTACT_US")}</a>
                 </li>
               </ul>
             </nav>
@@ -106,16 +106,16 @@ const Header = () => {
           }}
         >
           <MenuItem className={styles.link} onClick={handleMenuClose}>
-            <NavLink to="/">{t("HOME_PAGE")}</NavLink>
+            <a href="/">{t("HOME_PAGE")}</a>
           </MenuItem>
           <MenuItem className={styles.link} onClick={handleMenuClose}>
-            <NavLink to="#about-us">{t("ABOUT_US")}</NavLink>
+            <a href="#about-us">{t("ABOUT_US")}</a>
           </MenuItem>
           <MenuItem className={styles.link} onClick={handleMenuClose}>
-            <NavLink to="#services">{t("SERVICES")}</NavLink>
+            <a href="#services">{t("SERVICES")}</a>
           </MenuItem>
           <MenuItem className={styles.link} onClick={handleMenuClose}>
-            <NavLink to="#contact-us">{t("CONTACT_US")}</NavLink>
+            <a href="#contact">{t("CONTACT_US")}</a>
           </MenuItem>
         </Menu>
       )}

@@ -17,7 +17,7 @@ import Train1 from "./train1.png";
 import Train3 from "./train3.jpeg";
 import Train4 from "./train4.jpeg";
 import BgBanner from "./bg-banner.jpeg";
-
+import Service from "./service.jpg";
 export {
   July,
   BgCarousel,
@@ -38,4 +38,5 @@ export {
   Train1,
   Train3,
   Train4,
+  Service,
 };

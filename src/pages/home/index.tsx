@@ -7,6 +7,7 @@ import Certificates from "./components/certificates";
 import Footer from "./components/footer";
 import Stats from "./components/stats";
 import Feedback from "./components/feedback";
+import Services from "./components/services";
 
 const HomePage: FC = () => {
   return (
@@ -17,6 +18,7 @@ const HomePage: FC = () => {
       <WhyChooseUs />
       <Certificates />
       <Stats />
+      <Services />
       <Feedback />
       <Footer />
     </section>

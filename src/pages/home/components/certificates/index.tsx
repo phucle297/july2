@@ -34,8 +34,8 @@ const Certificates: FC = () => {
     <section className={styles.wrapper}>
       <div>
         <h1>{t("CERTIFICATES")}</h1>
-        <Grid container spacing={3}>
-          <Grid item xs={12} md={6}>
+        <Grid container spacing={4} justifyContent={"center"} sx={{ mt: 2 }}>
+          <Grid item xs={12} md={5}>
             <div className={styles.left}>
               <Slider {...settings}>
                 {arrCer.map((item, index) => {
@@ -48,8 +48,8 @@ const Certificates: FC = () => {
               </Slider>
             </div>
           </Grid>
-          <Grid item xs={12} md={6}>
-            <ul className={styles.right}>
+          <Grid item xs={12} md={5} className={styles.right}>
+            <ul>
               {[...Array(7)].map((_, index) => {
                 return (
                   <li key={index} className={styles.textItem}>
