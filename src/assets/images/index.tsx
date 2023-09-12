@@ -16,12 +16,14 @@ import Train1 from "./train1.png";
 import Train3 from "./train3.jpeg";
 import Train4 from "./train4.jpeg";
 import BgBanner from "./bg-banner.jpeg";
+import BgBannerMobile from "./bg-banner-mobile.jpeg";
 import Service from "./service.jpg";
 import BannerImg from "./banner-img.jpg";
 import BannerImg2 from "./banner-img2.jpg";
 import InsideFlowImg from "./inside-flow.jpg";
 export {
   BannerImg,
+  BgBannerMobile,
   BannerImg2,
   InsideFlowImg,
   July,

@@ -1,18 +1,20 @@
-import { BannerImg2, BgBanner, Pattern } from "@/assets/images";
+import { BannerImg2, BgBanner, BgBannerMobile, Pattern } from "@/assets/images";
 import ArrowRightAltIcon from "@mui/icons-material/ArrowRightAlt";
 import { Grid } from "@mui/material";
 import { FC } from "react";
 import { useTranslation } from "react-i18next";
 import styles from "./index.module.scss";
+import useWidth from "@/hooks/useWidth";
 
 const Banner: FC = () => {
   const { t } = useTranslation();
+  const width = useWidth();
   return (
     <section
       className={styles.wrapper}
       style={{
-        background: `url(${BgBanner}) no-repeat bottom center/cover,
-        rgba(0, 0, 0, 0.6) no-repeat bottom center`,
+        background: `url(${width < 768 ? BgBannerMobile : BgBanner}) ,
+        rgba(0, 0, 0, 0.6)`,
       }}
     >
       <div className={styles.container}>
