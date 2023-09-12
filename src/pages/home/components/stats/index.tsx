@@ -40,7 +40,7 @@ const Stats: FC = () => {
         </div>
         <div className={styles.item}>
           <HourglassEmptyOutlinedIcon />
-          <CountUp end={7000} redraw={true}>
+          <CountUp end={1000} redraw={true}>
             {({ countUpRef, start }) => (
               <ReactVisibilitySensor onChange={start} delayedCall>
                 <p className={styles.num}>

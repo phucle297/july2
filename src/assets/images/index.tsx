@@ -1,5 +1,4 @@
 import July from "./july.png";
-import BgCarousel from "./bg-carousel.jpeg";
 import Cer1 from "./cer1.png";
 import Cer2 from "./cer2.png";
 import Cer3 from "./cer3.png";
@@ -18,9 +17,14 @@ import Train3 from "./train3.jpeg";
 import Train4 from "./train4.jpeg";
 import BgBanner from "./bg-banner.jpeg";
 import Service from "./service.jpg";
+import BannerImg from "./banner-img.jpg";
+import BannerImg2 from "./banner-img2.jpg";
+import InsideFlowImg from "./inside-flow.jpg";
 export {
+  BannerImg,
+  BannerImg2,
+  InsideFlowImg,
   July,
-  BgCarousel,
   BgBanner,
   Cer1,
   Cer2,

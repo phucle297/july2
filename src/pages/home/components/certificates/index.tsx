@@ -50,7 +50,7 @@ const Certificates: FC = () => {
           </Grid>
           <Grid item xs={12} md={5} className={styles.right}>
             <ul>
-              {[...Array(7)].map((_, index) => {
+              {[...Array(6)].map((_, index) => {
                 return (
                   <li key={index} className={styles.textItem}>
                     <p>

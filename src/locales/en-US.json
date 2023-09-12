@@ -15,18 +15,17 @@
   "WHY_CHOOSE_US_1": "Comfortable training space",
   "WHY_CHOOSE_US_1_CONTENT": "The gym is fully equipped with tools to support Yoga training.",
   "WHY_CHOOSE_US_2": "Experienced trainers",
-  "WHY_CHOOSE_US_2_CONTENT": "You will be guided by a trainer with more than 7000 hours of teaching experience, experienced",
+  "WHY_CHOOSE_US_2_CONTENT": "You will be guided by a trainer with more than 1000 hours of teaching experience, experienced",
   "WHY_CHOOSE_US_3": "Diverse classes",
   "WHY_CHOOSE_US_3_CONTENT": "The center has many classes from tutoring to community courses, diverse content from meditation, yoga, breathing,...",
 
   "CERTIFICATES": "Certificates",
-  "CERTIFICATES_1": "200H Hatha Yoga US Yoga Alliance",
-  "CERTIFICATES_2": "300H Ashtanga Vinyasa US Yoga Alliance",
-  "CERTIFICATES_3": "200H on Yoga Therapy (Viet An Yoga Therapy Academy)",
-  "CERTIFICATES_4": "27h Iyengar Yoga Workshop (Rogelio A. Nunez, Intermediate Jr. II Iyengar Certified)",
-  "CERTIFICATES_5": "Teaching skills (Kim Nguyen Shriyoga)",
-  "CERTIFICATES_6": "50h meditation guide (Nguyen Van Hien, Zenlife yoga)",
-  "CERTIFICATES_7": "Certificate of course of Science of Distant Energy Healing (Master Sridevi Le Thi To Hai, Yoga, Meditation - Energy expert, Vice Chairman of Vietnam Yoga Association in charge of Natural Recovery)",
+  "CERTIFICATES_1": "200H Inside Yoga certificate",
+  "CERTIFICATES_2": "200H Inside Flow certificate",
+  "CERTIFICATES_3": "500H E RYT Yoga Alliance certificate",
+  "CERTIFICATES_4": "200H Hatha Yoga certificate",
+  "CERTIFICATES_5": "300H Ashtanga Yoga certificate",
+  "CERTIFICATES_6": "200H Yoga therapy certificate",
 
   "FOOTER_CONTENT": "July Group provides apartment rental services and yoga teaching with good products at reasonable prices",
   "APARTMENT_FOR_RENT": "Apartment for rent",
@@ -41,9 +40,7 @@
   "FEEDBACK": "Feedback",
 
   "COURSES": "Courses",
+  "COURSES_0": "International Yoga Instructor 300h",
   "COURSES_1": "Inside Flow (Yoga with music)",
-  "COURSES_2": "Inside Yoga (Foundation of Inside FLow)",
-  "COURSES_3": "Community Yoga classes",
-  "COURSES_4": "1:1 Yoga classes, for beginners/advanced",
-  "COURSES_5": "Yoga therapy classes"
+  "COURSES_2": "Inside Yoga (Foundation of Inside FLow)"
 }

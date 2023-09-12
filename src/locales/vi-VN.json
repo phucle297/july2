@@ -4,7 +4,7 @@
   "SERVICES": "Dịch vụ",
   "CONTACT_US": "Liên hệ",
 
-  "BANNER_CONTENT": "JULY YOGA do Trần Thị Đức Hạnh thành lập vào ngày 10/09/2018.Chuyên đào tạo về Hatha yoga, yoga phục hồi trị liệu, yoga nâng cao Vinyasa, Ashtanga, Yin yoga và thiền.",
+  "BANNER_CONTENT": "July Yoga, do Trần Thị Đức Hạnh thành lập vào ngày 10/09/2018, là một ngôi nhà của tình yêu và sự đam mê với yoga tại Việt Nam. Với khẩu hiệu 'yêu thương chạm trái tim', chúng tôi không chỉ đào tạo huấn luyện viên yoga có tâm và tầm, mà còn lan toả tình yêu này tới cộng đồng, cả trong và ngoài nước. ",
   "INTRODUCE": "Giới thiệu",
   "INTRODUCE_1": "July Yoga cung cấp các dịch vụ PT 1:1, kèm theo nhóm tại trung tâm, tại nhà.",
   "INTRODUCE_2": "Huấn luyện viên của trung tâm đã qua đào tạo 500h tại CTCP TẬP ĐOÀN NHỮNG TRÁI TIM VÀNG.",
@@ -15,18 +15,17 @@
   "WHY_CHOOSE_US_1": "Không gian tập luyện thoải mái",
   "WHY_CHOOSE_US_1_CONTENT": "Phòng tập trang bị đầy đủ dụng cụ hỗ trợ cho việc tập luyện Yoga.",
   "WHY_CHOOSE_US_2": "Huấn luyện viên nhiều kinh nghiệm",
-  "WHY_CHOOSE_US_2_CONTENT": "Bạn sẽ được hướng dẫn bởi huấn luyện viên có hơn 7000 giờ giảng dạy, có kinh nghiệm",
+  "WHY_CHOOSE_US_2_CONTENT": "Bạn sẽ được hướng dẫn bởi huấn luyện viên có hơn 1000 giờ giảng dạy, có kinh nghiệm",
   "WHY_CHOOSE_US_3": "Đa dạng lớp học",
   "WHY_CHOOSE_US_3_CONTENT": "Trung tâm có nhiều lớp từ dạy kèm đến những khóa cộng đồng, nội dung đa dạng từ thiền, yoga, thở,...",
 
   "CERTIFICATES": "Trình độ - Chứng chỉ",
-  "CERTIFICATES_1": "Chứng nhận 200H Hatha Yoga US Yoga Alliance",
-  "CERTIFICATES_2": "Chứng nhận 300H Ashtanga Vinyasa US Yoga Alliance",
-  "CERTIFICATES_3": "Chứng nhận 200H về Giáo viên yoga trị liệu (Học viện yoga trị liệu Việt Ấn)",
-  "CERTIFICATES_4": "Workshop 27h Iyengar Yoga (Rogelio A. Nunez, Intermediate Jr. II Iyengar Certified)",
-  "CERTIFICATES_5": "Kỹ năng đứng lớp (Kim Nguyễn Shriyoga)",
-  "CERTIFICATES_6": "Hướng dẫn viên thiền 50h (Nguyễn Văn Hiển, Zenlife yoga)",
-  "CERTIFICATES_7": "Chứng nhận khóa học Khoa học Luân xa năng lượng tự chữa lành (Master Sridevi Lê Thị Tố Hải, chuyên gia về Yoga, Thiền - Năng lượng, Phó chủ tịch liên đoàn Yoga VN phụ trách mảng Phục Hồi Tự Nhiên)",
+  "CERTIFICATES_1": "Chứng nhận 200H Inside Yoga",
+  "CERTIFICATES_2": "Chứng nhận 200H Inside Flow",
+  "CERTIFICATES_3": "Chứng nhận 500H E RYT Yoga Alliance",
+  "CERTIFICATES_4": "Chứng nhận 200H Hatha Yoga",
+  "CERTIFICATES_5": "Chứng nhận 300H Ashtanga Yoga",
+  "CERTIFICATES_6": "Chứng nhận 200H Yoga trị liệu",
 
   "FOOTER_CONTENT": "July Group cung cấp dịch vụ cho thuê căn hộ và dạy học yoga với những sản phẩm tốt đi kèm giá cả hợp lý",
   "APARTMENT_FOR_RENT": "Căn hộ cho thuê",
@@ -41,9 +40,7 @@
   "FEEDBACK": "Phản hồi của học viên",
 
   "COURSES": "Nội dung đào tạo",
-  "COURSES_1": "Inside Flow (Yoga theo nhạc)",
-  "COURSES_2": "Inside Yoga (Nền tảng của Inside FLow)",
-  "COURSES_3": "Các lớp Yoga cộng đồng",
-  "COURSES_4": "Các lớp kèm 1:1, kèm cho người mới bắt đầu/nâng cao",
-  "COURSES_5": "Các lớp Yoga phục hồi trị liệu"
+  "COURSES_0": "Huấn luyện viên Yoga quốc tế 300h",
+  "COURSES_1": "Các lớp kèm nhóm, kèm 1:1 nâng cao, trị liệu",
+  "COURSES_2": "Các lớp Yoga theo nhạc Inside Flow"
 }

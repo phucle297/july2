@@ -1,4 +1,4 @@
-import { BgBanner, Pattern, Tap4 } from "@/assets/images";
+import { BannerImg2, BgBanner, Pattern } from "@/assets/images";
 import ArrowRightAltIcon from "@mui/icons-material/ArrowRightAlt";
 import { Grid } from "@mui/material";
 import { FC } from "react";
@@ -36,7 +36,7 @@ const Banner: FC = () => {
           </Grid>
           <Grid item xs={12} md={6} className={styles.right}>
             <img className={styles.img1} src={Pattern} alt="pattern" />
-            <img className={styles.img2} src={Tap4} alt="tap" />
+            <img className={styles.img2} src={BannerImg2} alt="tap" />
           </Grid>
         </Grid>
       </div>

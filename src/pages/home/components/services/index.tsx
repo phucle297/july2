@@ -34,6 +34,16 @@ const Services: FC = () => {
                       color: "#15803d",
                     }}
                   />{" "}
+                  {t("COURSES_0")}
+                </p>
+              </li>
+              <li className={styles.textItem}>
+                <p>
+                  <AdjustIcon
+                    sx={{
+                      color: "#15803d",
+                    }}
+                  />{" "}
                   {t("COURSES_1")}
                 </p>
               </li>
@@ -45,36 +55,6 @@ const Services: FC = () => {
                     }}
                   />{" "}
                   {t("COURSES_2")}
-                </p>
-              </li>
-              <li className={styles.textItem}>
-                <p>
-                  <AdjustIcon
-                    sx={{
-                      color: "#15803d",
-                    }}
-                  />{" "}
-                  {t("COURSES_3")}
-                </p>
-              </li>
-              <li className={styles.textItem}>
-                <p>
-                  <AdjustIcon
-                    sx={{
-                      color: "#15803d",
-                    }}
-                  />{" "}
-                  {t("COURSES_4")}
-                </p>
-              </li>
-              <li className={styles.textItem}>
-                <p>
-                  <AdjustIcon
-                    sx={{
-                      color: "#15803d",
-                    }}
-                  />{" "}
-                  {t("COURSES_5")}
                 </p>
               </li>
             </ul>
