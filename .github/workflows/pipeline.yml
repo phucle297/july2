@@ -56,14 +56,14 @@ jobs:
 
       - name: Build
         run: |
-          docker build -t wb .
+          docker build -t july .
 
       - name: Push image to Docker Hub
         uses: docker/build-push-action@v3
         with:
           context: .
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/wb:${{ github.sha }}
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/july:${{ github.sha }}
 
   deploy:
     name: Deploy
@@ -79,7 +79,7 @@ jobs:
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: |
             docker rmi $(docker images -a -q)
-            docker pull ${{ secrets.DOCKERHUB_USERNAME }}/wb:${{ github.sha }}
-            docker stop wb
-            docker rm wb
-            docker run -d -p 80:80 --name wb ${{ secrets.DOCKERHUB_USERNAME }}/wb:${{ github.sha }}
+            docker pull ${{ secrets.DOCKERHUB_USERNAME }}/july:${{ github.sha }}
+            docker stop july
+            docker rm july
+            docker run -d -p 80:80 --name july ${{ secrets.DOCKERHUB_USERNAME }}/july:${{ github.sha }}
