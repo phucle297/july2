@@ -1,0 +1,43 @@
+.wrapper {
+    position: relative;
+
+    .container {
+        padding: 2rem 1rem;
+
+        @media (min-width: 1280px) {
+            padding: 2rem 5rem;
+        }
+
+        @media (min-width: 1920px) {
+            padding: 5rem 10rem;
+        }
+
+        @media (min-width: 2560px) {
+            padding: 5rem 15rem;
+        }
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    .left {
+        img {
+            border-radius: 8px;
+        }
+    }
+
+    .right{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .textItem {
+        margin-bottom: 5px;
+        svg {
+            line-height: 1;
+            font-size: 0.8em;
+        }
+    }
+}

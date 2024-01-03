@@ -1,0 +1,81 @@
+.wrapper {
+    background-color: #151421;
+    color: white;
+
+    .container {
+        padding: 2rem 1rem;
+
+        @media (min-width: 1280px) {
+            padding: 2rem 5rem;
+        }
+
+        @media (min-width: 1920px) {
+            padding: 5rem 10rem;
+        }
+
+        @media (min-width: 2560px) {
+            padding: 5rem 15rem;
+        }
+    }
+    h3 {
+        color: white;
+        margin-bottom: 1rem;
+        font-size: 1.5em;
+    }
+    img {
+        width: 60%;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 1rem;
+    }
+    .content {
+        text-align: center;
+    }
+    .link {
+        display: block;
+        &::after {
+            content: "";
+            display: block;
+            width: 0;
+            height: 1px;
+            position: absolute;
+            left: 50%;
+            bottom: 0;
+            transform: (-50%, 0);
+            background: white;
+            transition: all 0.3s ease;
+            -o-transition: all 0.3s ease;
+            -moz-transition: all 0.3s ease;
+            -webkit-transition: all 0.3s ease;
+        }
+        &:hover {
+            &::after {
+                width: 100%;
+                left: 0;
+            }
+        }
+    }
+
+    .contactItem {
+        display: flex;
+        margin: 0.5em 0;
+        align-items: center;
+        line-height: 1;
+        * {
+            line-height: 1;
+        }
+
+        > * {
+            margin-right: 0.5em;
+        }
+    }
+
+    .map {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        iframe {
+            border-radius: 8px;
+        }
+    }
+}
