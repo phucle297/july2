@@ -32,7 +32,7 @@ const Certificates: FC = () => {
 
   return (
     <section className={styles.wrapper}>
-      <div>
+      <div className="container">
         <h1>{t("CERTIFICATES")}</h1>
         <Grid container spacing={4} justifyContent={"center"} sx={{ mt: 2 }}>
           <Grid item xs={12} md={5}>

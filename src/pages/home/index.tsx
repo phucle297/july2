@@ -11,7 +11,7 @@ import Services from "./components/services";
 
 const HomePage: FC = () => {
   return (
-    <section>
+    <>
       <Header />
       <Banner />
       <AboutUs />
@@ -21,7 +21,7 @@ const HomePage: FC = () => {
       <Services />
       <Feedback />
       <Footer />
-    </section>
+    </>
   );
 };
 

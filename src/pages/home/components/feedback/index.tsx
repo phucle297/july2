@@ -61,9 +61,11 @@ const Feedback: FC = () => {
   return (
     <section className={styles.wrapper}>
       <div className={styles.container}>
-        <h1>{t("FEEDBACK")}</h1>
-        <div className={styles.feedback}>
-          <Slider {...settings}>{renderFeedback()}</Slider>
+        <div className="container">
+          <h1>{t("FEEDBACK")}</h1>
+          <div className={styles.feedback}>
+            <Slider {...settings}>{renderFeedback()}</Slider>
+          </div>
         </div>
       </div>
     </section>

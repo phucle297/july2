@@ -18,31 +18,32 @@ const Banner: FC = () => {
       }}
     >
       <div className={styles.container}>
-        <Grid
-          container
-          columnSpacing={2}
-          justifyContent={"center"}
-          alignItems={"center"}
-          className={styles.banner}
-        >
-          <Grid item xs={12} md={6} className={styles.left}>
-            <div className={styles.leftContent}>
-              <h1>July Yoga</h1>
-              <p>{t("BANNER_CONTENT")}</p>
+        <div className="container">
+          <Grid
+            container
+            columnSpacing={2}
+            justifyContent={"center"}
+            alignItems={"center"}
+            className={styles.banner}
+          >
+            <Grid item xs={12} md={6} className={styles.left}>
+              <div className={styles.leftContent}>
+                <h1>July Yoga</h1>
+                <p>{t("BANNER_CONTENT")}</p>
 
-              <a href="mailto:julygroups53@gmail.com" className="primaryBtn">
-                Liên hệ
-                <ArrowRightAltIcon />
-              </a>
-            </div>
+                <a href="mailto:julygroups53@gmail.com" className="primaryBtn">
+                  Liên hệ
+                  <ArrowRightAltIcon />
+                </a>
+              </div>
+            </Grid>
+            <Grid item xs={12} md={6} className={styles.right}>
+              <img className={styles.img1} src={Pattern} alt="pattern" />
+              <img className={styles.img2} src={BannerImg2} alt="tap" />
+            </Grid>
           </Grid>
-          <Grid item xs={12} md={6} className={styles.right}>
-            <img className={styles.img1} src={Pattern} alt="pattern" />
-            <img className={styles.img2} src={BannerImg2} alt="tap" />
-          </Grid>
-        </Grid>
+        </div>
       </div>
-
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 1440 280"
