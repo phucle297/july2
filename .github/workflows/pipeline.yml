@@ -63,21 +63,21 @@ jobs:
           push: true
           tags: ${{ secrets.DOCKERHUB_USERNAME }}/july:${{ github.sha }}
 
-  deploy:
-    name: Deploy
-    needs: build
-    runs-on: ubuntu-latest
+  # deploy:
+  #   name: Deploy
+  #   needs: build
+  #   runs-on: ubuntu-latest
 
-    steps:
-      - name: Deploy to server
-        uses: appleboy/ssh-action@v1.0.0
-        with:
-          host: ${{ secrets.SERVER_HOST }}
-          username: ${{ secrets.SERVER_USER }}
-          key: ${{ secrets.SSH_PRIVATE_KEY }}
-          script: |
-            docker rmi $(docker images -a -q)
-            docker pull ${{ secrets.DOCKERHUB_USERNAME }}/july:${{ github.sha }}
-            docker stop july
-            docker rm july
-            docker run -d -p 80:80 --name july ${{ secrets.DOCKERHUB_USERNAME }}/july:${{ github.sha }}
+  #   steps:
+  #     - name: Deploy to server
+  #       uses: appleboy/ssh-action@v1.0.0
+  #       with:
+  #         host: ${{ secrets.SERVER_HOST }}
+  #         username: ${{ secrets.SERVER_USER }}
+  #         key: ${{ secrets.SSH_PRIVATE_KEY }}
+  #         script: |
+  #           docker rmi $(docker images -a -q)
+  #           docker pull ${{ secrets.DOCKERHUB_USERNAME }}/july:${{ github.sha }}
+  #           docker stop july
+  #           docker rm july
+  #           docker run -d -p 80:80 --name july ${{ secrets.DOCKERHUB_USERNAME }}/july:${{ github.sha }}
