@@ -100,39 +100,76 @@
   z-index: 2;
   width: 40%;
   aspect-ratio: 1;
-  .playBtn {
-    width: 80px;
-    height: 80px;
-    background-color: #e1434b;
-    border-radius: 100%;
-    border: #fff solid 2px;
-    position: relative;
-    animation: shadowPulse 1s infinite linear;
-    color: $primary;
-    svg {
-      font-size: 2.5rem;
-      border-radius: 50%;
-    }
-    &::after {
-      position: absolute;
-      content: "";
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      border: #fff solid 2px;
-      border-radius: 100%;
-      animation: ringPulse 1s infinite linear;
-    }
-    &::before {
-      position: absolute;
-      content: "";
-      border-top: transparent 15px solid;
-      border-bottom: transparent 15px solid;
-      border-left: #fff 25px solid;
-      top: 50%;
-      left: 50%;
-      transform: translate(-40%, -50%);
-    }
+}
+
+.playBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  /* border: 2px solid rgba(0, 108, 54, 0.6); */
+  background: white;
+  border-radius: 50%;
+  position: relative;
+  line-height: 50px;
+  text-align: center;
+  cursor: pointer;
+}
+.playBtn::before,
+.playBtn::after {
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+@keyframes ripple {
+  0% {
+    box-shadow: 0 0 0 0 rgba(0, 108, 54, 0.8);
+  }
+  50% {
+    box-shadow: 0 0 0 15px rgba(0, 108, 54, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(0, 108, 54, 0);
+  }
+}
+.playBtn::before,
+.playBtn::after {
+  animation: ripple 3s infinite;
+}
+.playBtn::before {
+  animation-delay: 0.9s;
+}
+.playBtn::after {
+  animation-delay: 0.5s;
+}
+.playBtn i {
+  color: rgba(0, 108, 54, 0.8);
+  transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+}
+.playBtn:hover {
+  background-color: rgba(0, 108, 54, 1);
+}
+.playBtn:hover svg {
+  fill: white;
+}
+
+.playBtn {
+  border-radius: 100%;
+  color: $primary;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  svg {
+    font-size: 4rem;
+    border-radius: 50%;
   }
 }

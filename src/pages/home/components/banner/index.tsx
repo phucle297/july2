@@ -9,6 +9,7 @@ import { Grid } from "@mui/material";
 import { FC } from "react";
 import { useTranslation } from "react-i18next";
 import styles from "./index.module.scss";
+import { PlayCircleFilled } from "@mui/icons-material";
 const Banner: FC = () => {
   const { t } = useTranslation();
   const width = useWidth();
@@ -54,9 +55,9 @@ const Banner: FC = () => {
                   open();
                 }}
               >
-                {/* <div className={styles.playBtn}>
-                  <PlayCircle />
-                </div> */}
+                <button className={styles.playBtn}>
+                  <PlayCircleFilled />
+                </button>
                 <img className={styles.img2} src={Banner3} alt="tap" />
               </div>
               <Modal
