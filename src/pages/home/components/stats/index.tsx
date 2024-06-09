@@ -14,7 +14,7 @@ const Stats: FC = () => {
       <div className={styles.container}>
         <div className={styles.item}>
           <SentimentSatisfiedAltOutlinedIcon />
-          <CountUp end={500} redraw={true}>
+          <CountUp end={1200} redraw={true}>
             {({ countUpRef, start }) => (
               <ReactVisibilitySensor onChange={start} delayedCall>
                 <p className={styles.num}>
@@ -27,7 +27,7 @@ const Stats: FC = () => {
         </div>
         <div className={styles.item}>
           <AccessTimeOutlinedIcon />
-          <CountUp end={7} redraw={true}>
+          <CountUp end={10} redraw={true}>
             {({ countUpRef, start }) => (
               <ReactVisibilitySensor onChange={start} delayedCall>
                 <p className={styles.num}>
@@ -40,7 +40,7 @@ const Stats: FC = () => {
         </div>
         <div className={styles.item}>
           <HourglassEmptyOutlinedIcon />
-          <CountUp end={1000} redraw={true}>
+          <CountUp end={10000} redraw={true}>
             {({ countUpRef, start }) => (
               <ReactVisibilitySensor onChange={start} delayedCall>
                 <p className={styles.num}>

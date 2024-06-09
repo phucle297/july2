@@ -201,3 +201,19 @@
     opacity: 1;
   }
 }
+@keyframes ringPulse {
+  0% {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+
+  10% {
+    opacity: 1;
+  }
+
+  80%,
+  100% {
+    opacity: 0;
+    transform: scale(2);
+  }
+}

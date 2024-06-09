@@ -1,14 +1,19 @@
-import { BannerImg2, BgBanner, BgBannerMobile, Pattern } from "@/assets/images";
+import { BgBanner, BgBannerMobile, Pattern } from "@/assets/images";
+import useWidth from "@/hooks/useWidth";
+import { default as Banner3 } from "@assets/banner3.jpeg";
+import { default as Vid1 } from "@assets/vid1.mp4";
+import { Modal } from "@mantine/core";
+import { useDisclosure } from "@mantine/hooks";
 import ArrowRightAltIcon from "@mui/icons-material/ArrowRightAlt";
 import { Grid } from "@mui/material";
 import { FC } from "react";
 import { useTranslation } from "react-i18next";
 import styles from "./index.module.scss";
-import useWidth from "@/hooks/useWidth";
-
 const Banner: FC = () => {
   const { t } = useTranslation();
   const width = useWidth();
+  const [opened, { open, close }] = useDisclosure(false);
+
   return (
     <section
       className={styles.wrapper}
@@ -31,7 +36,11 @@ const Banner: FC = () => {
                 <h1>July Yoga</h1>
                 <p>{t("BANNER_CONTENT")}</p>
 
-                <a href="mailto:julygroups53@gmail.com" className="primaryBtn">
+                <a
+                  href="https://www.facebook.com/profile.php?id=100057118884309"
+                  target="_blank"
+                  className="primaryBtn"
+                >
                   Liên hệ
                   <ArrowRightAltIcon />
                 </a>
@@ -39,7 +48,30 @@ const Banner: FC = () => {
             </Grid>
             <Grid item xs={12} md={6} className={styles.right}>
               <img className={styles.img1} src={Pattern} alt="pattern" />
-              <img className={styles.img2} src={BannerImg2} alt="tap" />
+              <div
+                className={styles.img2Wrapper}
+                onClick={() => {
+                  open();
+                }}
+              >
+                {/* <div className={styles.playBtn}>
+                  <PlayCircle />
+                </div> */}
+                <img className={styles.img2} src={Banner3} alt="tap" />
+              </div>
+              <Modal
+                opened={opened}
+                onClose={close}
+                centered
+                withCloseButton={false}
+                classNames={{
+                  body: styles.modalBody,
+                }}
+              >
+                <video controls>
+                  <source src={Vid1} type="video/mp4" />
+                </video>
+              </Modal>
             </Grid>
           </Grid>
         </div>

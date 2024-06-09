@@ -21,13 +21,13 @@ const Feedback: FC = () => {
       img: "https://picsum.photos/50?random=3",
       content:
         "Nhờ cô liên tiếp nhắc nhở 'vươn ngực' trong vài tháng qua nên em thấy mình ý thức thẳng lưng hơn khi đi đứng (càng lớn tuổi thì lưng càng khòm), hy vọng học với cô lâu dài thì vóc dáng được cải thiện",
-      name: "Giấu tên",
+      name: "Nguyễn Phương Anh",
     },
     {
       img: "https://picsum.photos/50?random=4",
       content:
         "Sau khi tham gia khóa học, mọi người đều nói sức khỏe và thần thái của cô rất tốt",
-      name: "Giấu tên",
+      name: "Trần Mỹ Dung",
     },
   ];
   const settings = {

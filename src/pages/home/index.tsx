@@ -8,6 +8,8 @@ import Footer from "./components/footer";
 import Stats from "./components/stats";
 import Feedback from "./components/feedback";
 import Services from "./components/services";
+import Info from "./components/info";
+import ContactUs from "./components/contact-us";
 
 const HomePage: FC = () => {
   return (
@@ -15,11 +17,13 @@ const HomePage: FC = () => {
       <Header />
       <Banner />
       <AboutUs />
+      <Info />
       <WhyChooseUs />
       <Certificates />
       <Stats />
       <Services />
       <Feedback />
+      <ContactUs />
       <Footer />
     </>
   );

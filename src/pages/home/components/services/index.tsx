@@ -34,7 +34,39 @@ const Services: FC = () => {
                       color: "#15803d",
                     }}
                   />{" "}
-                  {t("COURSES_0")}
+                  Các lớp Đào tạo Huấn luyện viên Yoga. Các Huấn luyện viên được
+                  cấp bằng Quốc tế của hiệp hội US Yoga Alliance. Hiện nay,
+                  trường IKIGAI YOGA ACADEMY là đơn vị trực thuộc của JULY YOGA
+                  chuyên đào tạo các lớp huấn luyện viên
+                  <span
+                    style={{
+                      display: "block",
+                      marginLeft: "20px",
+                    }}
+                  >
+                    o 200H HATHA, VINYASA FLOW AND RESTORATIVE YOGA TEACHER
+                    TRAINING COURSE
+                  </span>
+                  <span
+                    style={{
+                      display: "block",
+                      marginLeft: "20px",
+                    }}
+                  >
+                    o 300H ASHTANGA, VINYASA FLOW YOGA TEACHER TRAINING COURSE
+                  </span>
+                </p>
+              </li>
+
+              <li className={styles.textItem}>
+                <p>
+                  <AdjustIcon
+                    sx={{
+                      color: "#15803d",
+                    }}
+                  />{" "}
+                  Dịch vụ yoga kèm PT 1:1, kèm theo nhóm tại trung tâm, tại nhà.
+                  (Phục hồi, cơ bản, nâng cao tùy theo nhu cầu của học viên).
                 </p>
               </li>
               <li className={styles.textItem}>
@@ -44,7 +76,7 @@ const Services: FC = () => {
                       color: "#15803d",
                     }}
                   />{" "}
-                  {t("COURSES_1")}
+                  Các lớp yoga cộng đồng.
                 </p>
               </li>
               <li className={styles.textItem}>
@@ -54,7 +86,20 @@ const Services: FC = () => {
                       color: "#15803d",
                     }}
                   />{" "}
-                  {t("COURSES_2")}
+                  Các lớp Inside yoga (Nền tảng cơ bản cho các lớp Inside Flow).
+                </p>
+              </li>
+              <li className={styles.textItem}>
+                <p>
+                  <AdjustIcon
+                    sx={{
+                      color: "#15803d",
+                    }}
+                  />{" "}
+                  Các lớp Inside Flow - được phát triển trên nền tảng vinyasa,
+                  trong đó các chuyển động phù hợp với beat nhạc và cấu trúc,
+                  năng lượng của bài hát. (Lớp Inside Flow cơ bản và nhiều cấp
+                  độ).
                 </p>
               </li>
             </ul>
