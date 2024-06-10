@@ -34,7 +34,7 @@ const AboutUs: FC = () => {
                     />{" "}
                     Các lớp Đào tạo Huấn luyện viên Yoga. Các Huấn luyện viên
                     sau tốt nghiệp được cấp bằng Quốc tế của hiệp hội US Yoga
-                    Alliance. Hiện nay, trường IKIGAI YOGA ACADEMY là đơn vị
+                    Alliance. Hiện nay, Học viện IKIGAI YOGA ACADEMY là đơn vị
                     trực thuộc của JULY YOGA chuyên đào tạo huấn luyện viên yoga
                     200H, 300H.
                   </p>
@@ -87,7 +87,7 @@ const AboutUs: FC = () => {
                 </li>
               </ul>
               <p>
-                Định hướng phát triển của JULY YOGA nói chung và trường IKIGAI
+                Định hướng phát triển của JULY YOGA nói chung và Học viện IKIGAI
                 YOGA ACADEMY nói riêng là trở thành trung tâm đào tạo yoga,
                 thiền được ưa thích và có uy tín tại Việt Nam.
               </p>

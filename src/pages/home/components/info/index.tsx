@@ -9,13 +9,13 @@ const Info = () => {
   return (
     <section className={styles.wrapper}>
       <div className={styles.container}>
-        <h1>Trường Ikigai Yoga Academy</h1>
+        <h1>Học viện Ikigai Yoga Academy</h1>
         <div>
           <Grid>
             <Grid.Col span={width <= 768 ? 12 : 6} className={styles.info}>
               <div>
                 <p>
-                  Trường đào tạo huấn luyện viên quốc tế Ikigai Yoga Academy
+                  Học viện đào tạo huấn luyện viên quốc tế Ikigai Yoga Academy
                 </p>
                 <p>
                   Ikigai yoga Academy - Đào tạo Huấn luyện viên Yoga trực thuộc
