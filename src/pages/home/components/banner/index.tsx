@@ -65,6 +65,7 @@ const Banner: FC = () => {
                 onClose={close}
                 centered
                 withCloseButton={false}
+                size={"xl"}
                 classNames={{
                   body: styles.modalBody,
                 }}
