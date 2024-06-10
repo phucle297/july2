@@ -4,14 +4,12 @@ import { default as Banner3 } from "@assets/banner3.jpeg";
 import { default as Vid1 } from "@assets/vid1.mp4";
 import { Modal } from "@mantine/core";
 import { useDisclosure } from "@mantine/hooks";
+import { PlayCircleFilled } from "@mui/icons-material";
 import ArrowRightAltIcon from "@mui/icons-material/ArrowRightAlt";
 import { Grid } from "@mui/material";
 import { FC } from "react";
-import { useTranslation } from "react-i18next";
 import styles from "./index.module.scss";
-import { PlayCircleFilled } from "@mui/icons-material";
 const Banner: FC = () => {
-  const { t } = useTranslation();
   const width = useWidth();
   const [opened, { open, close }] = useDisclosure(false);
 
@@ -35,7 +33,13 @@ const Banner: FC = () => {
             <Grid item xs={12} md={6} className={styles.left}>
               <div className={styles.leftContent}>
                 <h1>July Yoga</h1>
-                <p>{t("BANNER_CONTENT")}</p>
+                <p>
+                  July Yoga, do Trần Thị Đức Hạnh thành lập vào ngày 10/09/2018,
+                  là một ngôi nhà của tình yêu và sự đam mê với yoga tại Việt
+                  Nam. Với khẩu hiệu "Yêu thương chạm trái tim", chúng tôi không
+                  chỉ đào tạo huấn luyện viên yoga có tâm và tầm, mà còn lan toả
+                  tình yêu này tới cộng đồng, cả trong và ngoài nước.
+                </p>
 
                 <a
                   href="https://www.facebook.com/profile.php?id=100057118884309"

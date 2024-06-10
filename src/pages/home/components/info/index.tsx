@@ -25,7 +25,7 @@ const Info = () => {
                   href="https://www.yogaalliance.org/SchoolPublicProfile?sid=20889&lid=22108&fbclid=IwZXh0bgNhZW0CMTAAAR1y6emUpY7hn_n0KgSgv7FIPp5VHF7tPNMR5W2jGKyfu5o7cONn1K0mzDo_aem_AV7VS6kLji6Hkw-QZEDO4kWXfFpkWQ_WQDh5EjQRRRZlSunFxG8Z05iNpfOqA8UO5NfzMg7J1-390zgtAShAwwOs"
                   target="_blank"
                 >
-                  Tham khảo tại Yoga Alliance tại đây
+                  Tham khảo trên Yoga Alliance tại đây
                 </a>
               </div>
             </Grid.Col>
